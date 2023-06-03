@@ -1,0 +1,29 @@
+<div class="card" *ngIf="postObject">
+    <div class="card-header text-capitalize">
+       <h2>
+        {{postObject.title}}
+       </h2>
+    </div>
+    <div class="card-body">
+        <div class="row">
+            <div class="col-md-6 d-flex flex-column justify-content-between">
+                <p >
+                    {{postObject.content}}
+                </p>
+                <p class="text-right">
+                    <button class="btn-info btn mr-3"
+                    [routerLink]="['/createpost', postObject.id]"
+                    >Edit</button>
+                    <button class="btn-danger btn"
+                    (click)="onDelete(postObject.id)"
+                    >Delete</button>
+                </p>
+            </div>
+            <div class="col-md-6">
+                <div class="banner">
+                    <img class="img-fluid" src="https://source.unsplash.com/random/?city" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

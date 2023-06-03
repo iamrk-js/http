@@ -1,0 +1,68 @@
+{
+  "posts": [
+    {
+      "userId": 1,
+      "id": 1,
+      "title": "are or do repels provide blacked out except option criticizes",
+      "content": "because he also accepts\nundertakes the consequences of refusal and when\nhe criticizes the troubles so that the whole\nof our things are but they are the matter will happen to the architect"
+    },
+    {
+      "userId": 1,
+      "id": 2,
+      "title": "who is being",
+      "content": "it is in the time of life that things should be followed; no pain will blame the blessed ones; nor will they flee from the flattery of pleasure, or any trouble to reject them; we shall not open to them; we shall not be able to do anything but nothing."
+    },
+    {
+      "userId": 1,
+      "id": 4,
+      "title": "and he is blinded",
+      "content": "by rejecting any and often to obtain pleasure\nbut it is easy to assume the fault of things\nwhoever does not know the benefits here is bound by the thing and the pain itself by right\nwhosoever wants the pleasure of things"
+    },
+    {
+      "userId": 1,
+      "title": "Angualr 16",
+      "content": "Angular 16 Signals",
+      "id": 5
+    },
+    {
+      "userId": 4,
+      "title": "Next Skill",
+      "content": "NodeJS and Express",
+      "id": 6
+    },
+    {
+      "userId": 6,
+      "title": "Next Skill",
+      "content": "MongoDB",
+      "id": 7
+    },
+    {
+      "userId": 9,
+      "title": "Angular Micro Front End",
+      "content": "It is must for Exp Developers",
+      "id": 8
+    },
+    {
+      "userId": 7,
+      "title": "Angular Libraries",
+      "content": "Create Own Lib",
+      "id": 9
+    },
+    {
+      "userId": 3,
+      "title": "Angular Libraries Must",
+      "content": "Create Own Lib",
+      "id": 10
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "content": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
