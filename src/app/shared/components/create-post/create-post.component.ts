@@ -39,8 +39,8 @@ export class CreatePostComponent implements OnInit {
     this._route.params
         .pipe(
           concatMap((params : Params) => {
-            const postId = +params['id'];
-            return this._postsService.getPost(postId)
+            this.postId =  +params['id']
+            return this._postsService.getPost(this.postId)
           })
         )
         .subscribe(

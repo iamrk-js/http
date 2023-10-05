@@ -11,6 +11,8 @@ import { PostComponent } from './shared/components/post/post.component';
 import { CreatePostComponent } from './shared/components/create-post/create-post.component';
 import { NavComponent } from './shared/components/nav/nav.component';
 import { AuthInterceptorService } from './shared/services/auth-interceptor.service';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MaterialModule } from './shared/material/material.module';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { AuthInterceptorService } from './shared/services/auth-interceptor.servi
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    BrowserAnimationsModule,
+    MaterialModule
   ],
   providers: [
     {
